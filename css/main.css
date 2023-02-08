@@ -8,7 +8,9 @@ body{
   width:100%;/*pre will not change line - changing into p now*/
   word-break:break-word;
   font-size:20px;
-  display:none;/*Hide it first, using visibility=hidden will not show the element about using jQuery*/
+  display:none;
+  visibility:hidden;
+  /*Hide it first, using visibility=hidden will not show the element about using jQuery when using pre*/
 }
 h1{
   font-size:45px;
