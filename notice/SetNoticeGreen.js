@@ -1,6 +1,8 @@
 var options = {
   text: "Welcome to my website!",
-  duration: 2500,
+  gravity: "bottom",
+  position: 'center',
+  duration: 3500,
   callback: function() {
     console.log("Toast hidden");
     Toastify.reposition();
