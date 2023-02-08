@@ -4,8 +4,8 @@ body{
   margin-right:auto;
   background:rgba(0,150,50,0.1);
 }
-pre{
-  width:100%;/*pre will not change line*/
+.detail{
+  width:100%;/*pre will not change line - changing into p now*/
   word-break:break-word;
   font-size:20px;
   display:none;/*Hide it first, using visibility=hidden will not show the element about using jQuery*/
