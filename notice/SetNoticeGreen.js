@@ -1,6 +1,6 @@
 var options = {
   text: "Welcome to my website!",
-  gravity: "bottom",
+  gravity: "top",
   position: 'center',
   duration: 3500,
   callback: function() {
