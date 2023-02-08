@@ -7,12 +7,14 @@
 <meta name="Keywords" content="THE ROSE THAT GREW FROM CONCRETE, THE ROSE THAT GREW FROM CONCRETE analysis, famous poem" />
 <link rel="stylesheet" href="./css/main.css">
 <link rel="stylesheet" href="./css/HOVER.css">
+<script src="./js/jquery.min.js"></script>
   </head>
   <body>
 <h1>The Rose That Grew From Concrete by Tupac Shakur</h1>
     <img src="./photo/rose.jpg">
 <h2>The poem:</h2>
-<pre>
+    <p id="PoemButton" style="cursor:pointer;width:100%;background:rgba(0,200,10,0.9)">Show/Hide the poem</p>
+<pre id="Poem">
 Did you hear about the rose that - 
 grew from a crack in the concrete?
 Proving nature's law is wrong it.
@@ -23,7 +25,8 @@ Long live the rose that grew from concrete -
 when no one else ever cared.
 </pre>
  <h2>Analysis:</h2>
-    <pre>
+    <p id="AnalysisButton" style="cursor:pointer;width:100%;background:rgba(0,200,10,0.9)">Show/Hide the analysis</p>
+    <pre id="Analysis">
     The author had a difficult life and he overcame many challenges in his life, so the rose refers to the author himself.
     However, the rose also is a symbol of people who have ever faced difficulties that seemed can not be solved in lives and overcame them.
     The <i>poor law</i> is not working if people keep their dreams.
@@ -35,6 +38,15 @@ when no one else ever cared.
   <br>
   Transfer article for commerce use without <i>changing anything or authorized</i> is illegal
     </footer>
-  
+  <script language="javascript">
+    $(document).ready(function(){
+  $("#PoemButton").click(function(){
+		$("#Poem").fadeToggle();
+	});
+  $("#AnalysisButton").click(function(){
+		$("#Analysis").fadeToggle();
+	});
+});
+    </script>
   </body>
 </html>
