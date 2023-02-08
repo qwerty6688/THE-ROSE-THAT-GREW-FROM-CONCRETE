@@ -17,3 +17,8 @@ h2{
 footer{
   font-size:15px;
 }
+[p~=Button]{
+  cursor:pointer;
+  width:100%;
+  background:rgba(0,200,10,0.9);
+}
