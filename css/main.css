@@ -7,6 +7,7 @@ body{
 pre{
   word-break:break-word;
   font-size:20px;
+  visibility:hidden;
 }
 h1{
   font-size:45px;
