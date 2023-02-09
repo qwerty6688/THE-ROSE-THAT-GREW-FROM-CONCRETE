@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="./css/main.css">
+<link rel="stylesheet" href="./css/HOVER.css"></head>
+<body>
+<script>
+Toastify({
+  text: "welcome to my website",
+  duration: 3000,
+  //destination: "https://github.com/apvarun/toastify-js",
+  //newWindow: true,
+  close: true,
+  gravity: "top", // `top` or `bottom`
+  position: "center", // `left`, `center` or `right`
+  stopOnFocus: true, // Prevents dismissing of toast on hover
+  style: {
+    background: "linear-gradient(to right, rgba(0,200,50,0.9), rgba(0,100,5,0.9))",
+  },
+  onClick: function(){} // Callback after click
+}).showToast();</script>
+</body>
+</html>
