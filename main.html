@@ -17,6 +17,9 @@
   </head>
   <body>
 	  <script>
+setTimeout("WelcomeMsg()","2500");
+		  
+function WelcomeMsg(){ //This code must include in the HTML because it will not working if you using src
 Toastify({
   text: "welcome to my website",
   duration: 3000,
@@ -30,7 +33,10 @@ Toastify({
     background: "linear-gradient(to right, rgba(0,200,50,0.9), rgba(0,100,5,0.9))",
   },
   onClick: function(){} // Callback after click
-}).showToast();</script>
+}).showToast();
+}
+	
+	  </script>
 	  
 <h1>The Rose That Grew From Concrete by Tupac Shakur</h1>
     <img src="./photo/rose.jpg">
